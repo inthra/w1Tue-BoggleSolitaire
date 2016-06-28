@@ -12,11 +12,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/boggleLetters"
+        android:text=""
+        android:id="@+id/showLetters"
         android:layout_marginTop="95dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:letterSpacing="0.5"
+        android:textSize="24sp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -24,7 +26,7 @@
         android:text="Roll Letters"
         android:id="@+id/playBoggle"
         android:layout_marginTop="26dp"
-        android:layout_below="@+id/boggleLetters"
+        android:layout_below="@+id/showLetters"
         android:layout_centerHorizontal="true" />
 
     <EditText
