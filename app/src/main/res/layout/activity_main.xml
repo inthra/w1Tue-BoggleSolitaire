@@ -32,7 +32,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/boggleWord"
+        android:id="@+id/userInput"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="124dp"
@@ -44,8 +44,8 @@
         android:text="Submit"
         android:id="@+id/checkWord"
         android:layout_marginTop="53dp"
-        android:layout_alignTop="@+id/boggleWord"
-        android:layout_alignRight="@+id/boggleWord"
-        android:layout_alignEnd="@+id/boggleWord" />
+        android:layout_alignTop="@+id/userInput"
+        android:layout_alignRight="@+id/userInput"
+        android:layout_alignEnd="@+id/userInput" />
 
 </RelativeLayout>
